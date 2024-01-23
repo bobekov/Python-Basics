@@ -1,0 +1,10 @@
+annual_fee = int(input())
+
+shoes = annual_fee - (annual_fee * 0.4)
+equipment = shoes - (shoes * 0.2)
+ball = equipment / 4
+accessories = ball / 5
+
+expensive = annual_fee + shoes + equipment + ball + accessories
+
+print(expensive)
