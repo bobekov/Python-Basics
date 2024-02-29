@@ -1,0 +1,19 @@
+total = 0
+
+while True:
+    count = input()
+
+    if count == 'NoMoreMoney':
+        break
+
+    count = float(count)
+
+    if count >= 0:
+        total += count
+        print(f'Increase: {count:.2f}')
+
+    else:
+        print('Invalid operation!')
+        break
+
+print(f'Total: {total:.2f}')
